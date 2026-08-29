@@ -473,3 +473,52 @@ h2 {
     scroll-behavior: auto;
   }
 }
+
+/* Separate Photos page */
+.photos-page {
+  padding-block: 54px 58px;
+}
+
+.photos-intro {
+  max-width: 66ch;
+  margin-bottom: 32px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 34px 30px;
+  margin: 0;
+}
+
+.photo-card {
+  margin: 0;
+}
+
+.photo-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 1px solid #d7d7d7;
+  background: #f6f6f6;
+}
+
+.photo-card figcaption {
+  margin-top: 8px;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.site-nav a[aria-current="page"] {
+  color: var(--text);
+  border-bottom-color: currentColor;
+}
+
+@media (max-width: 640px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}

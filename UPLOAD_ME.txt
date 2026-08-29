@@ -1,0 +1,16 @@
+UPLOAD THESE FILES INTO THE ROOT OF YOUR EXISTING GITHUB PAGES REPOSITORY.
+
+This patch intentionally DOES NOT contain assets/AA_headshot.jpeg, so it will not overwrite your real headshot.
+
+Repository result should include:
+  index.html
+  photos.html
+  styles.css
+  assets/
+    AA_headshot.jpeg        <-- keep your existing real photo
+    Amogh_Anakru_CV.pdf     <-- keep your existing CV
+    favicon.svg             <-- keep existing
+    gallery/
+      photo-1.svg ... photo-6.svg
+
+Replace the gallery placeholders later with your own photos and update photos.html if you change filenames/extensions.
